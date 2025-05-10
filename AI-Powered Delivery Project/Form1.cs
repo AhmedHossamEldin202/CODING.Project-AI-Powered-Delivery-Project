@@ -27,10 +27,13 @@ namespace AI_Powered_Delivery_Project
         private Color SelectThemeColor()
         {
             int index = random.Next(themecolor.ColorList.Count);
-            while (tempIndex == index)
+            while (tempindex == index)
             {
                 random.Next(themecolor.ColorList.Count);
             }
+            tempindex = index;
+            string color = themecolor.ColorList[index];
+            return ColorTranslator.FromHtml(color);
         }
 
         private void button1_Click(object sender, EventArgs e)
