@@ -35,6 +35,11 @@ namespace AI_Powered_Delivery_Project
             string color = themecolor.ColorList[index];
             return ColorTranslator.FromHtml(color);
         }
+        private void ActivateButton(object btnSender)
+        {
+            if (btnSender == null) { 
+            }
+        }
 
         private void button1_Click(object sender, EventArgs e)
         {
