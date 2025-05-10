@@ -106,5 +106,10 @@ namespace AI_Powered_Delivery_Project
         {
             ActivateButton(sender);
         }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
