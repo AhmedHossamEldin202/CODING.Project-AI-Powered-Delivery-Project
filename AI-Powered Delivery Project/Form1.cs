@@ -12,9 +12,25 @@ namespace AI_Powered_Delivery_Project
 {
     public partial class Form1: Form
     {
+        // Fields
+        private Button currentButton;
+        private Random random;
+        private int tempindex;
+
+        // Constructor 
         public Form1()
         {
             InitializeComponent();
+        }
+
+        // Methods
+        private Color SelectThemeColor()
+        {
+            int index = random.Next(themecolor.ColorList.Count);
+            while (tempIndex == index)
+            {
+                random.Next(themecolor.ColorList.Count);
+            }
         }
 
         private void button1_Click(object sender, EventArgs e)
