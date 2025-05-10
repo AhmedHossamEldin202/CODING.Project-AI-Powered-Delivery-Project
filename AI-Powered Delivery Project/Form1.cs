@@ -38,7 +38,7 @@ namespace AI_Powered_Delivery_Project
         }
         private void ActivateButton(object btnSender)
         {
-            if (btnSender == null) {
+            if (btnSender != null) {
                 if (currentButton != (Button)btnSender) {
                     DisableButton();
                     Color color = SelectThemeColor();
