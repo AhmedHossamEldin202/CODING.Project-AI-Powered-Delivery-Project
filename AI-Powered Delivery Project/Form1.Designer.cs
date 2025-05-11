@@ -29,11 +29,11 @@
         private void InitializeComponent()
         {
             this.panelMenu = new System.Windows.Forms.Panel();
-            this.BtnToys = new System.Windows.Forms.Button();
-            this.BtnDevices = new System.Windows.Forms.Button();
-            this.BtnFashion = new System.Windows.Forms.Button();
-            this.btnPets = new System.Windows.Forms.Button();
-            this.btnHealth = new System.Windows.Forms.Button();
+            this.btnHome = new System.Windows.Forms.Button();
+            this.btnPS = new System.Windows.Forms.Button();
+            this.btnLaptops = new System.Windows.Forms.Button();
+            this.btnElectricalDevices = new System.Windows.Forms.Button();
+            this.btnMobiles = new System.Windows.Forms.Button();
             this.panelLogo = new System.Windows.Forms.Panel();
             this.label2 = new System.Windows.Forms.Label();
             this.panelTitleBar = new System.Windows.Forms.Panel();
@@ -47,98 +47,98 @@
             // panelMenu
             // 
             this.panelMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(51)))), ((int)(((byte)(76)))));
-            this.panelMenu.Controls.Add(this.BtnToys);
-            this.panelMenu.Controls.Add(this.BtnDevices);
-            this.panelMenu.Controls.Add(this.BtnFashion);
-            this.panelMenu.Controls.Add(this.btnPets);
-            this.panelMenu.Controls.Add(this.btnHealth);
+            this.panelMenu.Controls.Add(this.btnHome);
+            this.panelMenu.Controls.Add(this.btnPS);
+            this.panelMenu.Controls.Add(this.btnLaptops);
+            this.panelMenu.Controls.Add(this.btnElectricalDevices);
+            this.panelMenu.Controls.Add(this.btnMobiles);
             this.panelMenu.Controls.Add(this.panelLogo);
             this.panelMenu.Dock = System.Windows.Forms.DockStyle.Left;
             this.panelMenu.Location = new System.Drawing.Point(0, 0);
-            this.panelMenu.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.panelMenu.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.panelMenu.Name = "panelMenu";
-            this.panelMenu.Size = new System.Drawing.Size(330, 906);
+            this.panelMenu.Size = new System.Drawing.Size(165, 403);
             this.panelMenu.TabIndex = 0;
             // 
-            // BtnToys
+            // btnHome
             // 
-            this.BtnToys.Dock = System.Windows.Forms.DockStyle.Top;
-            this.BtnToys.FlatAppearance.BorderSize = 0;
-            this.BtnToys.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnToys.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnToys.ForeColor = System.Drawing.Color.Gainsboro;
-            this.BtnToys.Location = new System.Drawing.Point(0, 501);
-            this.BtnToys.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.BtnToys.Name = "BtnToys";
-            this.BtnToys.Size = new System.Drawing.Size(330, 94);
-            this.BtnToys.TabIndex = 4;
-            this.BtnToys.Text = "Home";
-            this.BtnToys.UseVisualStyleBackColor = true;
-            this.BtnToys.Click += new System.EventHandler(this.BtnToys_Click);
+            this.btnHome.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnHome.FlatAppearance.BorderSize = 0;
+            this.btnHome.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnHome.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnHome.ForeColor = System.Drawing.Color.Gainsboro;
+            this.btnHome.Location = new System.Drawing.Point(0, 261);
+            this.btnHome.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.btnHome.Name = "btnHome";
+            this.btnHome.Size = new System.Drawing.Size(165, 49);
+            this.btnHome.TabIndex = 4;
+            this.btnHome.Text = "Home";
+            this.btnHome.UseVisualStyleBackColor = true;
+            this.btnHome.Click += new System.EventHandler(this.btnHome_Click);
             // 
-            // BtnDevices
+            // btnPS
             // 
-            this.BtnDevices.Dock = System.Windows.Forms.DockStyle.Top;
-            this.BtnDevices.FlatAppearance.BorderSize = 0;
-            this.BtnDevices.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnDevices.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnDevices.ForeColor = System.Drawing.Color.Gainsboro;
-            this.BtnDevices.Location = new System.Drawing.Point(0, 407);
-            this.BtnDevices.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.BtnDevices.Name = "BtnDevices";
-            this.BtnDevices.Size = new System.Drawing.Size(330, 94);
-            this.BtnDevices.TabIndex = 3;
-            this.BtnDevices.Text = "PS";
-            this.BtnDevices.UseVisualStyleBackColor = true;
-            this.BtnDevices.Click += new System.EventHandler(this.BtnDevices_Click);
+            this.btnPS.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnPS.FlatAppearance.BorderSize = 0;
+            this.btnPS.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnPS.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnPS.ForeColor = System.Drawing.Color.Gainsboro;
+            this.btnPS.Location = new System.Drawing.Point(0, 212);
+            this.btnPS.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.btnPS.Name = "btnPS";
+            this.btnPS.Size = new System.Drawing.Size(165, 49);
+            this.btnPS.TabIndex = 3;
+            this.btnPS.Text = "PS";
+            this.btnPS.UseVisualStyleBackColor = true;
+            this.btnPS.Click += new System.EventHandler(this.btnPS_Click);
             // 
-            // BtnFashion
+            // btnLaptops
             // 
-            this.BtnFashion.Dock = System.Windows.Forms.DockStyle.Top;
-            this.BtnFashion.FlatAppearance.BorderSize = 0;
-            this.BtnFashion.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.BtnFashion.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnFashion.ForeColor = System.Drawing.Color.Gainsboro;
-            this.BtnFashion.Location = new System.Drawing.Point(0, 313);
-            this.BtnFashion.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.BtnFashion.Name = "BtnFashion";
-            this.BtnFashion.Size = new System.Drawing.Size(330, 94);
-            this.BtnFashion.TabIndex = 2;
-            this.BtnFashion.Text = "Laptops";
-            this.BtnFashion.UseVisualStyleBackColor = true;
-            this.BtnFashion.Click += new System.EventHandler(this.BtnFashion_Click);
+            this.btnLaptops.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnLaptops.FlatAppearance.BorderSize = 0;
+            this.btnLaptops.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnLaptops.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLaptops.ForeColor = System.Drawing.Color.Gainsboro;
+            this.btnLaptops.Location = new System.Drawing.Point(0, 163);
+            this.btnLaptops.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.btnLaptops.Name = "btnLaptops";
+            this.btnLaptops.Size = new System.Drawing.Size(165, 49);
+            this.btnLaptops.TabIndex = 2;
+            this.btnLaptops.Text = "Laptops";
+            this.btnLaptops.UseVisualStyleBackColor = true;
+            this.btnLaptops.Click += new System.EventHandler(this.btnLaptops_Click);
             // 
-            // btnPets
+            // btnElectricalDevices
             // 
-            this.btnPets.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnPets.FlatAppearance.BorderSize = 0;
-            this.btnPets.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnPets.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnPets.ForeColor = System.Drawing.Color.Gainsboro;
-            this.btnPets.Location = new System.Drawing.Point(0, 219);
-            this.btnPets.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.btnPets.Name = "btnPets";
-            this.btnPets.Size = new System.Drawing.Size(330, 94);
-            this.btnPets.TabIndex = 1;
-            this.btnPets.Text = "Electrical Devices";
-            this.btnPets.UseVisualStyleBackColor = true;
-            this.btnPets.Click += new System.EventHandler(this.BtnPets_Click);
+            this.btnElectricalDevices.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnElectricalDevices.FlatAppearance.BorderSize = 0;
+            this.btnElectricalDevices.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnElectricalDevices.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnElectricalDevices.ForeColor = System.Drawing.Color.Gainsboro;
+            this.btnElectricalDevices.Location = new System.Drawing.Point(0, 114);
+            this.btnElectricalDevices.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.btnElectricalDevices.Name = "btnElectricalDevices";
+            this.btnElectricalDevices.Size = new System.Drawing.Size(165, 49);
+            this.btnElectricalDevices.TabIndex = 1;
+            this.btnElectricalDevices.Text = "Electrical Devices";
+            this.btnElectricalDevices.UseVisualStyleBackColor = true;
+            this.btnElectricalDevices.Click += new System.EventHandler(this.btnElectricalDevices_Click);
             // 
-            // btnHealth
+            // btnMobiles
             // 
-            this.btnHealth.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnHealth.FlatAppearance.BorderSize = 0;
-            this.btnHealth.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnHealth.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnHealth.ForeColor = System.Drawing.Color.Gainsboro;
-            this.btnHealth.Location = new System.Drawing.Point(0, 125);
-            this.btnHealth.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.btnHealth.Name = "btnHealth";
-            this.btnHealth.Size = new System.Drawing.Size(330, 94);
-            this.btnHealth.TabIndex = 0;
-            this.btnHealth.Text = "Mobiles";
-            this.btnHealth.UseVisualStyleBackColor = true;
-            this.btnHealth.Click += new System.EventHandler(this.BtnHealth_Click);
+            this.btnMobiles.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnMobiles.FlatAppearance.BorderSize = 0;
+            this.btnMobiles.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnMobiles.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnMobiles.ForeColor = System.Drawing.Color.Gainsboro;
+            this.btnMobiles.Location = new System.Drawing.Point(0, 65);
+            this.btnMobiles.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
+            this.btnMobiles.Name = "btnMobiles";
+            this.btnMobiles.Size = new System.Drawing.Size(165, 49);
+            this.btnMobiles.TabIndex = 0;
+            this.btnMobiles.Text = "Mobiles";
+            this.btnMobiles.UseVisualStyleBackColor = true;
+            this.btnMobiles.Click += new System.EventHandler(this.btnMobiles_Click);
             // 
             // panelLogo
             // 
@@ -146,19 +146,19 @@
             this.panelLogo.Controls.Add(this.label2);
             this.panelLogo.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelLogo.Location = new System.Drawing.Point(0, 0);
-            this.panelLogo.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.panelLogo.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.panelLogo.Name = "panelLogo";
-            this.panelLogo.Size = new System.Drawing.Size(330, 125);
+            this.panelLogo.Size = new System.Drawing.Size(165, 65);
             this.panelLogo.TabIndex = 0;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label2.Location = new System.Drawing.Point(99, 51);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Location = new System.Drawing.Point(50, 27);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(98, 25);
+            this.label2.Size = new System.Drawing.Size(50, 13);
             this.label2.TabIndex = 0;
             this.label2.Text = "Uni Sync";
             this.label2.Click += new System.EventHandler(this.label2_Click);
@@ -168,10 +168,10 @@
             this.panelTitleBar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(150)))), ((int)(((byte)(136)))));
             this.panelTitleBar.Controls.Add(this.label1);
             this.panelTitleBar.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panelTitleBar.Location = new System.Drawing.Point(330, 0);
-            this.panelTitleBar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.panelTitleBar.Location = new System.Drawing.Point(165, 0);
+            this.panelTitleBar.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.panelTitleBar.Name = "panelTitleBar";
-            this.panelTitleBar.Size = new System.Drawing.Size(1359, 125);
+            this.panelTitleBar.Size = new System.Drawing.Size(522, 65);
             this.panelTitleBar.TabIndex = 1;
             // 
             // label1
@@ -180,10 +180,10 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Monotype Koufi", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(584, 41);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(213, 21);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(187, 55);
+            this.label1.Size = new System.Drawing.Size(94, 27);
             this.label1.TabIndex = 0;
             this.label1.Text = "STORE";
             this.label1.Click += new System.EventHandler(this.label1_Click);
@@ -191,20 +191,21 @@
             // panelDesktop
             // 
             this.panelDesktop.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panelDesktop.Location = new System.Drawing.Point(330, 125);
+            this.panelDesktop.Location = new System.Drawing.Point(165, 65);
+            this.panelDesktop.Margin = new System.Windows.Forms.Padding(2);
             this.panelDesktop.Name = "panelDesktop";
-            this.panelDesktop.Size = new System.Drawing.Size(1359, 781);
+            this.panelDesktop.Size = new System.Drawing.Size(522, 338);
             this.panelDesktop.TabIndex = 2;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1689, 906);
+            this.ClientSize = new System.Drawing.Size(687, 403);
             this.Controls.Add(this.panelDesktop);
             this.Controls.Add(this.panelTitleBar);
             this.Controls.Add(this.panelMenu);
-            this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -221,11 +222,11 @@
 
         private System.Windows.Forms.Panel panelMenu;
         private System.Windows.Forms.Panel panelLogo;
-        private System.Windows.Forms.Button btnHealth;
-        private System.Windows.Forms.Button BtnDevices;
-        private System.Windows.Forms.Button BtnFashion;
-        private System.Windows.Forms.Button btnPets;
-        private System.Windows.Forms.Button BtnToys;
+        private System.Windows.Forms.Button btnMobiles;
+        private System.Windows.Forms.Button btnPS;
+        private System.Windows.Forms.Button btnLaptops;
+        private System.Windows.Forms.Button btnElectricalDevices;
+        private System.Windows.Forms.Button btnHome;
         private System.Windows.Forms.Panel panelTitleBar;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;

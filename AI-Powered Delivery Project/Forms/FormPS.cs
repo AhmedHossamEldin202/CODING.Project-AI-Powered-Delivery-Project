@@ -10,19 +10,13 @@ using System.Windows.Forms;
 
 namespace AI_Powered_Delivery_Project.Forms
 {
-    public partial class FormMobiles: Form
+    public partial class FormPS : Form
     {
-        public FormMobiles()
+        public FormPS()
         {
             InitializeComponent();
             LoadTheme();
         }
-
-        private void FormMobiles_Load(object sender, EventArgs e)
-        {
-
-        }
-
         private void LoadTheme()
         {
             foreach (Control btns in this.Controls)

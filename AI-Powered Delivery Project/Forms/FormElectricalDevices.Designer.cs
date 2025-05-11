@@ -1,6 +1,6 @@
 ﻿namespace AI_Powered_Delivery_Project.Forms
 {
-    partial class FormMobiles
+    partial class FormElectricalDevices
     {
         /// <summary>
         /// Required designer variable.
@@ -28,19 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.SuspendLayout();
-            // 
-            // FormMobiles
-            // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.components = new System.ComponentModel.Container();
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(741, 439);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.Name = "FormMobiles";
-            this.Text = "FormMobiles";
-            this.Load += new System.EventHandler(this.FormMobiles_Load);
-            this.ResumeLayout(false);
-
+            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Text = "FormElectricalDevices";
         }
 
         #endregion

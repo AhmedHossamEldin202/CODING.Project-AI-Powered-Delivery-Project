@@ -56,6 +56,8 @@ namespace AI_Powered_Delivery_Project
                     currentButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
                     panelTitleBar.BackColor = color;
                     panelLogo.BackColor = themecolor.ChangeColorBrightness(color,-0.3);
+                    themecolor.primaryColor = color;
+                    themecolor.SecondaryColor = themecolor.ChangeColorBrightness(color,-0.3);
                 }
             }
         }
@@ -87,9 +89,9 @@ namespace AI_Powered_Delivery_Project
             label2.Text = childForm.Text;
         }
 
-        private void BtnHealth_Click(object sender, EventArgs e)
+        private void btnMobiles_Click(object sender, EventArgs e)
         {
-            ActivateButton(sender);
+            OpenChildForm(new Forms.FormMobiles(), sender);
 
         }
 
@@ -98,41 +100,28 @@ namespace AI_Powered_Delivery_Project
         
         }
 
-        private void BtnPets_Click(object sender, EventArgs e)
+        private void btnElectricalDevices_Click(object sender, EventArgs e)
         {
-            ActivateButton(sender);
-            
+            OpenChildForm(new Forms.FormElectricalDevices(), sender);
 
         }
 
-        private void BtnFashion_Click(object sender, EventArgs e)
+        private void btnLaptops_Click(object sender, EventArgs e)
         {
-            ActivateButton(sender);
+            OpenChildForm(new Forms.FormLaptops(), sender);
+
         }
 
-        private void BtnDevices_Click(object sender, EventArgs e)
+        private void btnPS_Click(object sender, EventArgs e)
         {
-            ActivateButton(sender);
+            OpenChildForm(new Forms.FormPS(), sender);
+
         }
 
-        private void BtnToys_Click(object sender, EventArgs e)
+        private void btnHome_Click(object sender, EventArgs e)
         {
-            ActivateButton(sender);
-        }
+            OpenChildForm(new Forms.FormHome(), sender);
 
-        private void BtnBooks_Click(object sender, EventArgs e)
-        {
-            ActivateButton(sender);
-        }
-
-        private void BtnSports_Click(object sender, EventArgs e)
-        {
-            ActivateButton(sender);
-        }
-
-        private void BtnOffice_Click(object sender, EventArgs e)
-        {
-            ActivateButton(sender);
         }
 
         private void label1_Click(object sender, EventArgs e)
