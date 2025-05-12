@@ -1,4 +1,6 @@
-﻿using System;
+﻿using LiveCharts.Wpf;
+using LiveCharts;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -7,6 +9,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Windows.Forms.DataVisualization.Charting;
+
 
 namespace AI_Powered_Delivery_Project
 {
@@ -16,13 +20,17 @@ namespace AI_Powered_Delivery_Project
         private Button currentButton;
         private Random random;
         private int tempindex;
+        private Form activeForm;
 
         // Constructor 
         public Form1()
         {
             InitializeComponent();
             random = new Random();
+          
         }
+
+     
 
         // Methods
         private Color SelectThemeColor()
@@ -46,6 +54,8 @@ namespace AI_Powered_Delivery_Project
                     currentButton.BackColor = color;
                     currentButton.ForeColor = Color.White;
                     currentButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+                    panelTitleBar.BackColor = color;
+                    panelLogo.BackColor = themecolor.ChangeColorBrightness(color,-0.3);
                 }
             }
         }
@@ -61,10 +71,26 @@ namespace AI_Powered_Delivery_Project
                 }
             }
         }
+        private void OpenChildForm(Form childForm, object btnSender)
+        {
+            if (activeForm != null)
+                activeForm.Close();
+            ActivateButton(btnSender);
+            activeForm = childForm;
+            childForm.TopLevel = false;
+            childForm.FormBorderStyle = FormBorderStyle.None;
+            childForm.Dock = DockStyle.Fill;
+            this.panelDesktop.Controls.Add(childForm);
+            this.panelDesktop.Tag = childForm;
+            childForm.BringToFront();
+            childForm.Show();
+            label2.Text = childForm.Text;
+        }
 
         private void BtnHealth_Click(object sender, EventArgs e)
         {
             ActivateButton(sender);
+
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -75,6 +101,8 @@ namespace AI_Powered_Delivery_Project
         private void BtnPets_Click(object sender, EventArgs e)
         {
             ActivateButton(sender);
+            
+
         }
 
         private void BtnFashion_Click(object sender, EventArgs e)
@@ -108,6 +136,11 @@ namespace AI_Powered_Delivery_Project
         }
 
         private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
         {
 
         }
